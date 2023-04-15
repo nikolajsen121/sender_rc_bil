@@ -1,8 +1,8 @@
 input.onButtonPressed(Button.A, function () {
-    radio.sendValue("button_a", 1)
+    radio.sendValue("direction", 1)
 })
 input.onButtonPressed(Button.B, function () {
-    radio.sendValue("button_b", 0)
+    radio.sendValue("direction", 0)
 })
 basic.showIcon(IconNames.SmallDiamond)
 radio.setGroup(1)
